@@ -1,0 +1,17 @@
+# === KiCad 專案暫存與自動備份檔 ===
+*.kicad_prl
+*.bak
+*-bak
+_autosave-*
+*.kicad_pcb-bak
+*.sch-bak
+*.kicad_sch-bak
+
+# === 製造輸出檔（可選，建議排除以節省空間） ===
+# 如果你需要透過 Git 分享 Gerber 檔，可以把下面這幾行刪除
+/gerber/
+/plots/
+/bom/
+*.gbr
+*.drl
+*.pdf
